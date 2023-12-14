@@ -1,16 +1,24 @@
 {% extends 'main/layout.html' %}
+{% load static %}
 
 {% block title %}
     {{ title }}
 {% endblock %}
 {% block content %}
-     <div id ='d'>
+    <div class="index">
          <h1>{{ title }}</h1>
          <p>Тест работоспособности функционала сайта и фреймворков</p>
-         <button class = "btn btn-warning">Кнопка1 </button>
-         {% for el in values %}
-            <p>{{ el }}</p>
-         {% endfor %}
-         {{obj.hobby}}
-     </div>
+    </div>
+             <div class="gallery">
+                  <img src="{% static 'main/img/2.jpg' %}" alt="Image 1">
+                  <img src="{% static 'main/img/3.jpg' %}" alt="Image 2">
+                  <img src="{% static 'main/img/4.jpg' %}" alt="Image 4">
+             </div>
+    <div class="index1">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
 {% endblock %}

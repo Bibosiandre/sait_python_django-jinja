@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3880eeca-9059-46c3-b199-d08478cd5057" name="Changes" comment="A" />
+    <list default="true" id="3880eeca-9059-46c3-b199-d08478cd5057" name="Changes" comment="A">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sait_pyhon_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sait_pyhon_django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/main/static/main/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/main/templates/main/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/news/templates/news/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/news/templates/news/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/news/templates/news/details_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/news/templates/news/news-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/news/templates/news/news-delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_sait_1/news/templates/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_sait_1/news/templates/news/news.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +67,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NagUzIJeWtK0UOIlczcO5VB5JN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,12 +79,16 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/v.minibaev.CENTRIKT/Desktop/sait_pyhon_django/Django_sait_1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FPS/PycharmProjects/sait_python_django-jinja/Django_sait_1/main/static/main/img&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/FPS/PycharmProjects/sait_python_django-jinja&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FPS\PycharmProjects\sait_python_django-jinja\Django_sait_1\main\static\main\img" />
       <recent name="C:\Users\v.minibaev.CENTRIKT\Desktop\sait_pyhon_django\Django_sait_1" />
       <recent name="C:\Users\v.minibaev.CENTRIKT\Desktop\sait_pyhon_django\Django_sait_1\main\static\main\img" />
     </key>

@@ -12,25 +12,23 @@
 </head>
 <body>
         <div id = 'a'>
-            <div id = 'b'>
-               <img src="{% static 'main/img/1.png' %}" alt="Фото">
-            </div>
-             <div id = 'b1'>
-                <h3>Навигация</h3>
-             </div>
-                <div id = 'c'>
+                <div class = 'sidenav'>
+                    <h3><img src="{% static 'main/img/1.png' %}" alt="Фото">Навигация</h3>
                     <ul>
-                        <a href = "{% url 'home' %}"><i class="fa-solid fa-bars"></i><li>Главная</li></a>
-                        <a href = "{% url 'about' %}"><i class="fa-solid fa-user"></i><li>Про нас</li></a>
-                        <a href = "{% url 'news' %}"><i class="fa-solid fa-newspaper"></i><li>Новости</li></a>
-                        <a href = ""><i class="fa-solid fa-address-card"></i><li>Контакты</li></a>
+                        <a href = "{% url 'home' %}"><li><i class="fa-solid fa-bars"></i>Главная</li></a>
+                        <a href = "{% url 'about' %}"><li><i class="fa-solid fa-user"></i>Про нас</li></a>
+                        <a href = "{% url 'news' %}"><li><i class="fa-solid fa-newspaper"></i>Новости</li></a>
                         <a href = "{% url 'create' %}"><li><button class = "btn btn-info"><i class="fas fa-plus-circle"></i>Добавить запись</li></a>
                     </ul>
                 </div>
         </div>
+    <div class = 'main'>
     <main>
         {% block content %}
         {% endblock %}
     </main>
+    </div>
+
 </body>
+<script src="{% static 'main/js/main.js' %}"></script>
 </html>

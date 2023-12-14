@@ -5,11 +5,9 @@
 {% endblock %}
 
 {% block content %}
-     <div id ='d'>
          <h1>Форма удаления</h1>
          <form method="post">
              {% csrf_token %}
              <button class="btn btn-success" type="submit">Удалить статью</button>
          </form>
-     </div>
 {% endblock %}
